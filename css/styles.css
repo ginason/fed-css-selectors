@@ -1,0 +1,53 @@
+html{
+  font-size: 20px;
+}
+h1{
+  font-family: 'Pangolin', cursive;
+}
+h2{
+  font-family: 'Pangolin', cursive;
+}
+header{
+  border-bottom-style: double;
+  border-width: thick;
+  border-color: red;
+}
+.item{
+  border-style: double;
+}
+.item.odd p{
+
+  background-color: black;
+  color: white;
+}
+.item.even{
+  /*border-style: dashed;*/
+  background-color: grey;
+}
+.class-list{
+  list-style-type: square;
+}
+#item1{
+  font-size: 30px;
+}
+#item2{
+  text-align: right;
+}
+
+#advanced-selectors > ol > li{
+  padding-top: 20px;
+  background-color: grey;
+}
+
+#advanced-selectors li:nth-child(odd){
+  background-color: green;
+}
+#advanced-selectors li:nth-child(4) a:hover{
+  text-decoration: none;
+}
+#advanced-selectors li:nth-child(5) a:hover{
+  background-color: yellow;
+}
+#advanced-selectors li:nth-child(5) a:active{
+  background-color: red;
+}
